@@ -7,12 +7,18 @@ Instructor: Burgess
 
 total = 0
 amount = 0
-
-
 print("welcome to the average calculator")
 
-num = int(input("Enter a number"))
-total+=num
-amount+=1
-print()
+reply="y"
+while reply == "y":
 
+
+    num = int(input("Enter a number"))
+    total+=num
+    amount+=1
+
+    print (f"total:{total}")
+    print(f"amount:{amount}")
+    print(f"average:{total/amount}")
+
+    reply=input("do you want to enter another number? y/n:")
