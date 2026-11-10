@@ -9,7 +9,9 @@ Instructor: Burgess
 
 def factorial():
     # Write your code here
-
+    num = int(input("Enter a number"))
+    for p in range():
+        print(p)
 
 # You should not need to change any code below this point
 def main():
