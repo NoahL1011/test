@@ -9,9 +9,21 @@ Instructor: Burgess
 
 def factorial():
     # Write your code here
+    total = 1
     num = int(input("Enter a number"))
-    for p in range():
-        print(p)
+    if num == 0:
+        print("0!=1")
+    else:
+        print(f"{num}!=",end="")
+        for p in range(num,0,-1):
+            if p > 1:
+                print(f"{p}*", end="")
+            else:
+                print(f"{p}", end="")
+            total *= p
+        print("=",total)
+
+
 
 # You should not need to change any code below this point
 def main():
